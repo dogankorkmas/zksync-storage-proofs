@@ -14,8 +14,8 @@ for the Solidity implementation of Blake2S hash.
 
 ## Usage
 In order to verify a storage proof:
-1. Get storage proof from @getclave/zksync-storage-proofs
-2. Pass it to the `StorageProofVerifier#verify` function to verify
+1. Get storage proof from @getclave/zksync-storage-proofs.
+2. Pass it to the `StorageProofVerifier#verify` function to verify.
 
 > This takes around 60M gas so only call it inside view functions
 
@@ -45,4 +45,4 @@ contract MyProofVerifier {
 }
 ```
 
-You can also check out the [demo](./src/demo/) for an example implementation
+You can also check out the [demo](./src/demo/) for an example implementation.
